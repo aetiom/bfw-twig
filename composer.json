@@ -21,5 +21,10 @@
     "require": {
         "bulton-fr/bfw": "~3.0.0-RC11@RC",
         "twig/twig": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BfwTwig\\": "src/"
+        }
     }
 }
