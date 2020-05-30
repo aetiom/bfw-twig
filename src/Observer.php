@@ -41,7 +41,7 @@ class Observer implements \SplObserver
         $this->enable = $config['enable'];
         $this->template = $config['template'];
 
-        $this->map = $config['template'];
+        $this->map = $config['map'];
 
         $this->twig = $twig;
     }
